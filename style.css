@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-background {
+    background-image: url('images/image%2059.png'); /* Проверьте путь к изображению */
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.header {
+    color: #fff;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 54px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(35, 31, 33, 0.25);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.contact-info p {
+    margin: 0 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.separator {
+    border: 1px solid white;
+    height: 30px;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.branding {
+    margin-top: 12%;
+}
+
+.brand-logo {
+    border: 2px solid rgba(217, 217, 217, 1);
+    background: rgba(217, 217, 217, 1);
+    width: 97px;
+}
+
+.project-details {
+    margin-left: 13%;
+    padding: 0 20px;
+}
+
+.project-info {
+    position: relative;
+    padding: 0 20px;
+}
+
+.project-info h1 {
+    font-size: 60px;
+    position: relative;
+    margin: 0;
+}
+
+.completion-date {
+    font-family: Gotham Pro, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+}
+
+.project-info p {
+    width: 100%;
+    max-width: 600px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        margin: 10px 0;
+    }
+
+    .contact-info p {
+        margin: 5px 0;
+        font-size: 12px;
+    }
+
+    .project-info h1 {
+        font-size: 40px;
+    }
+
+    .completion-date {
+        font-size: 14px;
+    }
+
+    .project-info p {
+        font-size: 12px;
+    }
+
+    .project-details {
+        margin-left: 0;
+    }
+}
